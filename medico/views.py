@@ -6,8 +6,7 @@ from .forms import EspecialidadeForm, MedicoForm
 
 class EspecialidadeListView(ListView):
     model = Especialidade
-    template_name = 'especialidade_list.html'
-    context_object_name = 'especialidades'
+    template_name = 'especialidade_list.html'  
 
 class EspecialidadeCreateView(CreateView):
     model = Especialidade
